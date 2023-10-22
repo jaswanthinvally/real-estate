@@ -1,0 +1,11 @@
+.nav-main {
+    color: white;
+    background-color: black;
+}
+.nav-li {
+
+}
+.nav-li:hover {
+    background-color: red;
+    border-radius: 10px;
+}
