@@ -1,6 +1,5 @@
 .nav-main {
-    color: white;
-    background-color: black;
+    background-color:transparent;
 }
 .nav-li {
 
@@ -8,4 +7,8 @@
 .nav-li:hover {
     background-color: red;
     border-radius: 10px;
+}
+.img-banner-1 {
+    width: 100vw;
+    height: auto;
 }
