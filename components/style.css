@@ -1,14 +1,21 @@
 .nav-main {
     background-color:transparent;
+    z-index:100;
+    color:white;
+    
 }
 .nav-li {
+
 
 }
 .nav-li:hover {
     background-color: red;
     border-radius: 10px;
+
 }
 .img-banner-1 {
     width: 100vw;
     height: auto;
+    z-index:-1;
+    position:absolute;
 }
