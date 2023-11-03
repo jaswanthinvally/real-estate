@@ -1,49 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>southhold/projects</title>
 </head>
+
 <body>
     <style>
+        .btn-sub {
+            border: 1px solid black;
+            color: black;
+            transition: ease-in 0.1s;
+        }
+
+        .btn-sub:hover {
+            background-color: black;
+            color: white;
+        }
+
         .div-img {
             background-color: black;
-            height: 20vh;
-            width: 25vw;
+            height: 30vh;
+            width: 30vw;
+        }
+
+        .ft-main {
+            height: 25vh;
+        }
+        .ip {
+            height: 4vh;
         }
     </style>
     <!--navbar starts-->
-    <nav class="navbar-nav navbar-expand-lg d-flex flex-row justify-content-between align-items-center main-nav bg-light"  >
+    <nav
+        class="navbar-nav navbar-expand-lg d-flex flex-row justify-content-between align-items-center main-nav bg-light">
         <div class="nav-div-1">
-          <div class="navbar-brand  text-dark">southold</div>
-    
+            <div class="navbar-brand  text-dark"><a class="nav-link text-dark" href="../components/home-main.html">southhold</a></div>
+
         </div>
-        <div class="nav-div-2 d-flex  align-items-center">
-          <ul class="nav-ul d-flex flex-row m-2">
-            <li class=" list-unstyled nav-li    nav-item p-2 "><a class="nav-a  nav-links text-dark  " href="">home</a></li>
-            <li class=" list-unstyled nav-li    nav-item p-2 "><a class="nav-a  nav-links text-dark  " href="">about</a></li>
-            <li class=" list-unstyled nav-li    nav-item p-2 "><a class="nav-a  nav-links text-dark  " href="">services</a></li>
-            <li class=" list-unstyled nav-li   nav-item p-2 "><a class="nav-a  nav-links text-dark  " href="">projects</a></li>
-          </ul>
-        </div>
-      </nav>
-      <!-- navbar ends-->
-      <div class="m-1">
+            <div class="nav-div-2 d-flex  align-items-center">
+      <ul class="nav-ul d-flex flex-row m-2">
+        <li class="nav-li list-unstyled nav-item p-2 ">
+          <a class="nav-a navlinks  text-dark list-unstyled" href="../components/about.html">about</a>
+        </li>
+        <li class="nav-li list-unstyled nav-item p-2 ">
+          <a class="nav-a navlinks  text-dark list-unstyled" href="../components/services.html">services</a>
+        </li>
+        <li class="nav-li list-unstyled nav-item p-2 ">
+          <a class="nav-a navlinks  text-dark list-unstyled" href="../components/projects.html">projects</a>
+        </li>
+        <li class="nav-li list-unstyled nav-item p-2 ">
+          <a class="nav-a navlinks  text-dark list-unstyled" href="../components/contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <!-- navbar ends-->
+    <div class="m-1">
         <h1 class="d-flex justify-content-center h2">our projects</h1>
         <div class=" d-flex flex-wrap flex-row justify-content-center align-items-center ">
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 1</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 2</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 3</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 4</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 5</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 6</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 7</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 8</div>
-            <div class=" div-img m-2 d-flex justify-content-center align-items-center bg-dark text-light rounded">img 9</div>
+            <img class="div-img m-2" src="../assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
+            <img class="div-img m-2" src="./assets/civil.jpg" alt="">
         </div>
-      </div>
-    
+    </div>
+    <!-- <footer class="ft-main bg-dark text-dark">
+        <h1 class="h6">just leave you email</h1>
+        <input type="text rounded" class="ip"><br>
+        <button class="btn btn-sub mt-1">subscribe</button>
+
+    </footer> -->
+
 </body>
+
 </html>
