@@ -1,88 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-* {
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+/* footer */
+
+.footer-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 0px 5px 0px;
 
 }
-.nav-main {
-    background-color:transparent;
-    z-index:100;
-    color: white;
-    
+
+footer {
+background-color: #000;
+color: #fff;
+padding: 20px 0px 0px 0px;
+width: 100%;
 }
-.nav-ul {
-    height: 6.4vh;
-    border-radius: 20px;
-    background-color: wheat;
-}
-.nav-li {
-    color: black;
-    height: 5vh;
-    width: 15vh;
-    font-weight: 600;
-    transition: 0.1s ease-in;
+
+footer .bi {
+font-size: 20px;
+color:white;
+margin: 0 10px;
 
 }
-.nav-li:hover {
-    background-color: black;
-    color: white;
-    border-radius: 20px;
+
+footer a {
+text-decoration: none;
+color: #fff;
+}
+
+footer a:hover {
+color: #ccc;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer-row {
+text-align: center;
+font-size: 12px; /* You can adjust the font size as needed */
+column-gap: 10px;
+}
+
+.footer-links {
+display: flex;
+justify-content: space-around;
+max-width: 200px;
+margin: 0 auto; /* Center the links horizontally */
+}
+.footer-middle {
+font-size:15px;
+font-weight:lighter;
+padding-top:0px;
+padding-bottom:0px;
 
 }
-.img-banner-1 {
-    width: 100vw;
-    height: auto;
-    z-index:-1;
-    position:absolute;
-}
-.div-1 {
-    color: black;
-   font-weight: 700;
-   font-size: x-large;
+.icons {
+padding-bottom:20px;
 
 }
-.about-us-main {
-
+.c {
+font-size:12px;
+font-weight:lighter;
 }
-.about-us-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    height: 30vh;
-    width: 45vw;
-    border-radius: 10px;
-    color: white;
+.ic {
+opacity: 1;
 }
-.li-1 {
-    color: white;
-
-}
-.li-1:hover{
-    opacity: 0.9;
-    border-bottom: white;
-}
-.li-2 {
-    color: white;
-}
-.li-2:hover{
-    opacity: 0.9;
-    border-bottom: white;
-}
-.li-3 {
-    color: white;
-
-}
-.li-3:hover{
-    opacity: 0.9;
-    border-bottom: white;
-}
-.li-4 {
-    color: white;
-}
-.li-4:hover{
-    opacity: 0.9;
-    border-bottom: white;
+.ic:hover {
+opacity: 0.8;
 }
