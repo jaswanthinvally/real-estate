@@ -152,9 +152,25 @@ nav {
 
   .masthead {
    font-size:45px;
-   margin-top:400px;
-   margin-left:40px;
+   margin-top:350px;
    color:white;
    opacity:1;
    text-align: center;
+  }
+
+  .known-more {
+    margin-top:0px;
+    color:white;
+    text-align: center;
+    font-size:20px;
+    background-color:transparent;
+    opacity:0.7;
+    padding:10px 10px 10px 10px;
+    border:none;
+  }
+  .known-more:hover {
+    opacity:0.5;
+  }
+  .known-more:active {
+    opacity:0.7;
   }
