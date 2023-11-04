@@ -166,3 +166,12 @@ nav {
 
     display: block;
   }
+  .btn-btn {
+    color: white;
+    border: 2px solid white;
+  }
+  .btn-btn:hover {
+    font-weight: 600;
+    border: 2px solid white;
+    color: black;
+  }
