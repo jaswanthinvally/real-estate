@@ -24,7 +24,7 @@ section {
 
 
 body {
-  background-color: #000;
+  background-color:black;
 }
 
 *>#home{
@@ -35,6 +35,7 @@ nav {
   margin-top:75px;
 }
 
+/* nav bar starts from here and its media queries */
 .dropdown-toggle::after {
   display: none;
 }
@@ -57,6 +58,17 @@ nav {
   .dropdown:focus .dropdown-menu {
     display:block !important;
   }
+
+  .hero {
+    font-size:1.5em;
+    font-weight:bold;
+
+  }
+  .known-more {
+    font-size:1.5em;
+
+  
+  }
 }
 
 .dropdown-menu {
@@ -74,43 +86,16 @@ nav {
   opacity:0.5;
 }
 
-/*nav bar starts here*/
-/*
-.container {
-
-}
-.dropdown-menu {
-  background-color:transparent;
-  border:none;
-}
-.dropdown-item {
-  color:white;
-  font-size:15px;
-  background-color:transparent;
-
-}
-
-.nav-pills .nav-item .nav-link {
-  color:white;
-  font-size:15px;
-  
-}
-/*nav bar ends here*/
+/* nav bar ends here */
 
 
-/* footer start here*/
-.footer-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 0px 5px 0px;
-  
-  }
+/* footer start here footer all media queries */
+
   
   footer {
   background-color: #000;
   color: #fff;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 0px 20px;
   width: 100%;
   }
   
@@ -123,11 +108,12 @@ nav {
   
   footer a {
   text-decoration: none;
-  color: #fff;
+  color: white;
+  transition:ease-in-out 0.3s;
   }
   
   footer a:hover {
-  color: #ccc;
+  opacity:0.7;
   }
   
   footer {
@@ -136,53 +122,34 @@ nav {
   align-items: center;
   }
   
-  .footer-row {
-  text-align: center;
-  font-size: 12px; /* You can adjust the font size as needed */
-  column-gap: 10px;
-  }
-  
-  .footer-links {
-  display: flex;
-  justify-content: space-around;
-  max-width: 200px;
-  margin: 0 auto; /* Center the links horizontally */
-  }
-  .footer-middle {
-  font-size:15px;
-  font-weight:lighter;
-  padding-top:0px;
-  padding-bottom:0px;
-  
-  }
   .icons {
   padding-bottom:20px;
   
   }
-  footer .footer-row a {
-  text-decoration: none;
-  }
+
   
   .c {
   font-size:12px;
   font-weight:lighter;
   }
   
-  .footer-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 20px;
+  @media( 320px <= width <= 425px) {
+    .footer1 {
+     font-size:9px;
+     font-weight:600;
+     margin-right:0px;
+     margin-left:0px;
+    }
+    .footer2 {
+      font-size:10px;
+    }
   }
 
   /* footer end here */
   
   /* main page start here */
 
+<<<<<<< HEAD
   .masthead {
    font-size:45px;
    color:white;
@@ -210,6 +177,9 @@ nav {
     color: black;
 
 
+=======
+ 
+>>>>>>> bbfe8585ffe07eea6c61f7259170767cd7db7b07
   .known-more {
     margin-top:0px;
     color:white;
@@ -221,8 +191,19 @@ nav {
     border:none;
   }
   .known-more:hover {
-    opacity:0.5;
+    opacity:0.9;
   }
   .known-more:active {
-    opacity:0.7;
+    opacity:0.5
   }
+
+  @media( 375px <= width <= 700px ) {
+     .hero { 
+      font-size:1em;
+      font-weight:bold;
+    }
+  }
+
+.hero2 {
+  height:400px;
+}
