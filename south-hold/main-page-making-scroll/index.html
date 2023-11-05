@@ -12,26 +12,50 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<section id="home">
-    <nav class="mt-4 me-5 ms-5">
-    <div class="container-fluid navbarcontainer">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-lg-4  col-md-4">
-          <a href="#"><img class="logo" src="../assets/3-bg_removed.png" alt="logo"></a>
-        </div>
-        <div class="col-lg-8 navhover col-md-8 text-light text-end">
-          <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">SERVICES</a>
-          <a href="#">PROJECTS</a>
-          <a href="#">CONTACT US</a>
-        </div>
-      </div>
-    </div>
-  </nav>
 
-<div class="masthead"><p>Your Unique Vision , Our Custom Construction</p>
-<button class="known-more">Known More</button></div>
+<section id="home">
+
+  <div class="container-fluid">
+    <header class="d-flex flex-wrap justify-content-center py-3 mt-5">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Simple header</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">HOME</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICES</a>
+          <ul class="dropdown-menu ">
+            <li class="dropdown-item" href="#">CIVIL WORKS</li>
+            <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+            <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+            <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+            <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+            <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+            <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown">PROJECTS</a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item" href="#">ITC</li>
+            <li class="dropdown-item" href="#">Residential Design</li>
+            <li class="dropdown-item" href="#">Project2</li>
+            <li class="dropdown-item" href="#">electrical</li>
+            <li class="dropdown-item" href="#">BUILDING</li>
+            <li class="dropdown-item" href="#">AUTHORITY</li>
+        </ul>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+      </ul>
+    </header>
+  </div>
+
+<div class="masthead">
+  <div class="container-fluid">
+    <p>Your Unique Vision , Our Custom Construction</p>
+    <button class="known-more">Known More</button>
+  </div>
+</div>
 
 </section>
 <section id="about"></section>
