@@ -27,41 +27,17 @@ body {
 }
 
 *>#home{
-  margin-top:-25px;
+  margin-top:-50px;
 }
 
 /*nav bar starts here*/
-nav div .row  a {
-  color:white;
-  text-decoration: none;
-  font-size: 17px;
-  gap:1px;
-  font-weight: lighter;
-  padding:10px 10px 10px 10px;
-  opacity:1;
-  
+.container {
+  margin-top:50px;
 }
-nav div .row .navhover a:hover {
-  color:#ded8d8;
-  opacity:0.5;
-  border-radius: 5px;
-  transition:ease-in-out 0.15s;
+.dropdown-menu {
+  background-color:transparent;
+  border:none;
 }
-.navbarcontainer {
-  padding:30px 20px 30px 20px;
-  cursor:pointer;
-  opacity:1;
-}
-.logo {
-  image-rendering:auto;
-  width:300px;
-  padding:0;
-  margin:0;
-}
-nav {
-  z-index:1;
-}
-
 /*nav bar ends here*/
 
 
