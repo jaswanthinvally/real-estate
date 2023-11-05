@@ -9,11 +9,12 @@ section {
 #home {
   background-image: url('../assets/main\ page\ image\ building.jpg');
   opacity:0.7;
+  padding-top:25px;
  
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  height:112vh;
+  height:122vh;
 
 }
 #about {
@@ -27,16 +28,72 @@ body {
 }
 
 *>#home{
-  margin-top:-50px;
+  margin-top:-75px;
+}
+
+nav {
+  margin-top:75px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+@media (max-width: 991px){
+  .sidebar{
+  background-color: rgba(255,255,255,0.15);
+  backdrop-filter:blur(5px);
+  }
+  
+}
+
+@media screen and (min-width:991px) {
+  .dropdown .dropdown-menu.show {
+    display:none !important;
+  }
+  .dropdown:hover .dropdown-menu {
+    display:block !important;
+  }
+  .dropdown:focus .dropdown-menu {
+    display:block !important;
+  }
+}
+
+.dropdown-menu {
+  background-color:transparent;
+  border:none;
+  cursor:pointer;
+}
+.dropdown-item {
+  color:white;
+  opacity:0.7;
+}
+.dropdown-item:hover{
+  color:white;
+  background-color:transparent;
+  opacity:0.5;
 }
 
 /*nav bar starts here*/
+/*
 .container {
-  margin-top:50px;
+
 }
 .dropdown-menu {
   background-color:transparent;
   border:none;
+}
+.dropdown-item {
+  color:white;
+  font-size:15px;
+  background-color:transparent;
+
+}
+
+.nav-pills .nav-item .nav-link {
+  color:white;
+  font-size:15px;
+  
 }
 /*nav bar ends here*/
 
@@ -128,10 +185,11 @@ body {
 
   .masthead {
    font-size:45px;
-   margin-top:350px;
    color:white;
+   margin-top:350px;
    opacity:1;
    text-align: center;
+   height:100vh;
   }
 
   .ul-li {
