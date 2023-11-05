@@ -14,45 +14,74 @@
 <body>
 
 <section id="home">
-
-  <div class="container-fluid">
-    <header class="d-flex flex-wrap justify-content-center py-3 mt-5">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4">Simple header</span>
-      </a>
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">HOME</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
-        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICES</a>
-          <ul class="dropdown-menu ">
-            <li class="dropdown-item" href="#">CIVIL WORKS</li>
-            <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
-            <li class="dropdown-item" href="#">PLUMBING WORKS</li>
-            <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
-            <li class="dropdown-item" href="#">BUILDING DESIGN</li>
-            <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
-            <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+<!--nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container">
+      <!--logo-->
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <!--toggle button-->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--nav bar sidebar-->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!--side bar header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!--side bar body-->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="dropdown-menu bg-transparent ">
+                <li class="dropdown-item" href="#">CIVIL WORKS</li>
+                <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+                <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+                <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+                <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+                <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+                <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PROJECTS
+              </a>
+              <ul class="dropdown-menu bg-transparent ">
+                <li class="dropdown-item" href="#">CIVIL WORKS</li>
+                <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+                <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+                <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+                <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+                <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+                <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown">PROJECTS</a>
-        <ul class="dropdown-menu">
-          <li class="dropdown-item" href="#">ITC</li>
-            <li class="dropdown-item" href="#">Residential Design</li>
-            <li class="dropdown-item" href="#">Project2</li>
-            <li class="dropdown-item" href="#">electrical</li>
-            <li class="dropdown-item" href="#">BUILDING</li>
-            <li class="dropdown-item" href="#">AUTHORITY</li>
-        </ul>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
-      </ul>
-    </header>
-  </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  
 
 <div class="masthead">
   <div class="container-fluid">
-    <p>Your Unique Vision , Our Custom Construction</p>
+    <p class="s">Your Unique Vision , Our Custom Construction</p>
     <button class="known-more">Known More</button>
   </div>
 </div>
@@ -60,30 +89,27 @@
 </section>
 <section id="about"></section>
 
-<footer>
-  <div class="footer-row icons">
-    <a href="https://www.facebook.com"><i class="fa bi bi-facebook"></i></a>
-    <a href="https://www.instagram.com"><i class="fa bi bi-instagram"></i></a> 
-    <a href="https://www.linkedin.com"><i class="fa bi bi-linkedin"></i></a>
-    <a href="https://www.twitter.com"><i class="fa bi bi-twitter"></i></a> 
-  </div>    
-  <div class="footer-row justify-content-center footer-middle">
-    <p class="g-e-2">7010389954</p>
-    <p>|</p>
-    <a href="mailto:contact@southholdconstruction.com"><p>CONTACT@SOUTH HOLD CONSTRUCTION.COM</p></a>
-    <p>|</p>
-    <p>No.168 ERUKENCHERRY HIGH ROAD, CHENNAI - 600 039</p>
-  </div>
-  <div class="footer-row justify-content-around">
-    <a href="#">HOME</a>
-    <a href="#">ABOUT</a>
-    <a href="#">SERVICES</a>
-    <a href="#">PROJECTS</a>
-    <a href="#">CONTACT US</a>
-  </div>
-  <div class="footer-row c justify-content-around pt-3">
-    <p>© 2023 SOUTH HOLD CONSTRUCTION. All Rights Reserved.</p>
-  </div>
-</footer>
+
+<div class="container-fluid">
+  <footer class="py-2 my-2">
+    <div class="row icons">
+      <a class="col" href="https://www.facebook.com"><i class="fa bi bi-facebook"></i></a>
+      <a class="col" href="https://www.instagram.com"><i class="fa bi bi-instagram"></i></a> 
+      <a  class="col" href="https://www.linkedin.com"><i class="fa bi bi-linkedin"></i></a>
+      <a class="col" href="https://www.twitter.com"><i class="fa bi bi-twitter"></i></a> 
+    </div>
+    
+
+   
+    <ul class="nav justify-content-center pb-2 mb-1" style="font-size:0.8em">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white fw-light">HOME</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white fw-light">ABOUT</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white fw-light">SERVICES</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white fw-light">PROJECT</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white fw-light">CONTACT US</a></li>
+    </ul>
+    <p class="text-center text-white fw-lighter p-1 mb-1">© 2023 SOUTH HOLD CONSTRUCTION. All Rights Reserved.</p>
+  </footer>
+</div>
 </body>
 </html>
