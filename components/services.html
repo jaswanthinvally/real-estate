@@ -1,103 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../components/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>southhold/services</title>
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--font added-->
+
+    <link rel="stylesheet" href="https://use.typekit.net/lai3hcf.css">
+    <title>SOUTH HOLD CONSTRUCTION</title>
+  
+    <!--Template main css-->
+    <link rel="stylesheet" href="./style.css">
     <style>
-        * {
-            
+      /* dont forget to add these in the main css file */
+      main {
+        background-color: white;
+      }
+      /* dont forget to add these in the main css file ends here */
+    
+      .dropdown-item:hover{
+        color:black;
+        background-color:transparent;
+      }
+      .dropdown-item {
+        color:black;
+      }
+      .navbar {
+        margin-top:25px;
+      }
+      @media (320px <= width <= 991px ) {
+        .offcanvas-body a {
+          color:white;
         }
-        .service-div {
-            color: white;
-            background-color: black;
-            height: 25vh;
-            width: 60vw;
-            border-radius: 10px;
+        .dropdown-item {
+        color:white;
+        }
+      }
+      
 
-        }
-        .service-div:hover {
-            opacity: 0.9;
-        }
-    </style>
-    <nav
-    class="navbar-nav navbar-expand-lg d-flex flex-row justify-content-between align-items-center main-nav bg-light p-3">
-    <div class="nav-div-1">
-        <div class="navbar-brand  text-dark">southold</div>
+      .service-div {
+        color: white;
+        background-color: black;
+        height: 30vh;
+        width: 70vw;
 
-    </div>
-    <div class="nav-div-2 d-flex  align-items-center">
-        <ul class="nav-ul d-flex flex-row m-2">
-          <li class="nav-li list-unstyled nav-item p-2 ">
-            <a class="nav-a navlinks  text-dark list-unstyled" href="../components/about.html">about</a>
-          </li>
-          <li class="nav-li list-unstyled nav-item p-2 ">
-            <a class="nav-a navlinks  text-dark list-unstyled" href="../components/services.html">services</a>
-          </li>
-          <li class="nav-li list-unstyled nav-item p-2 ">
-            <a class="nav-a navlinks  text-dark list-unstyled" href="../components/projects.html">projects</a>
-          </li>
-          <li class="nav-li list-unstyled nav-item p-2 ">
-            <a class="nav-a navlinks  text-dark list-unstyled" href="../components/contact.html">contact</a>
-          </li>
-        </ul>
-      </div>
-</nav>
-<div>
-    <h1 class="d-flex justify-content-center h2">services</h1>
-    <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+        transition:ease-in-out 0.15s;
+        letter-spacing:0.1em;
+        font-size:10em;
+    }
+    .service-container a {
+      text-decoration:none;
+    }
+    .service-div1 {
+      background-image: url('../assets/civil.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+
+    }
+
+    .service-div2 {
+      background-image: url('../assets/electrical-switching-gear-panel.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+
+    }
+    .service-div3 {
+      background-image: url('../assets/plumbing.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+    }
+    .service-div4 {
+      background-image: url('../assets/mechanical1.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+
+    }
+    .service-div5 {
+      background-image: url('../assets/building-design.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+
+    }
+    .service-div6 {
+      background-image: url('../assets/authority-approvals.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+
+    }
+    .service-div7 {
+      background-image: url('../assets/interior-decorating.jpg');
+      background-position:center center;
+      background-size:cover;
+      opacity:0.9;
+
+    }
+    
+    .service-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .service-name {
+      font-weight:600;
+      letter-spacing:0.1em;
+    }
+
+  </style>
+  </head>
+  <body>
+    <main class="pt-5 pb-2">
+      <!--nav bar-->
+        <nav class="navbar navbar-expand-lg text-black navbar-white bg-white">
+          <div class="container">
+            <!--logo-->
+            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <!--toggle button-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--nav bar sidebar-->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <!--side bar header-->
+              <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <!--side bar body-->
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link " aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SERVICES
+                    </a>
+                    <ul class="dropdown-menu bg-transparent ">
+                      <li class="dropdown-item" href="#">CIVIL WORKS</li>
+                      <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+                      <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+                      <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+                      <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+                      <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+                      <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PROJECTS
+                    </a>
+                    <ul class="dropdown-menu bg-transparent ">
+                      <li class="dropdown-item" href="#">CIVIL WORKS</li>
+                      <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+                      <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+                      <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+                      <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+                      <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+                      <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <!--nav bar ends here-->
+    <div>
+    <h1 class="d-flex justify-content-center service-name fs-1 my-5 py-5">SERVICES</h1>
+    <div class="d-flex flex-column justify-content-center service-container align-items-center my-5">
         <a href="../components/services/civil.html" class="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">civil work</div>
+            <div class="service-div d-flex align-items-center text-center justify-content-center service-div1 fs-1 my-4 px-3 py-3">CIVIL WORKS</div>
         </a>
         <a href=".." class="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">electrical work</div>
+            <div class="service-div d-flex align-items-center text-center justify-content-center service-div2 fs-1 my-4 px-3 py-3">ELECTRICIALS WORKS</div>
         </a>
         <a href="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">mechenical work</div>
+          <div class="service-div d-flex align-items-center text-center justify-content-center service-div3 fs-1 my-4 px-3 py-3">PLUMBING WORKS</div>
         </a>
         <a href="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">building design</div>
+            <div class="service-div d-flex align-items-center text-center justify-content-center service-div4 fs-1 my-4 px-3 py-3">MECHANICAL WORKS</div>
         </a>
         <a href="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">plumbing work</div>
+            <div class="service-div d-flex align-items-center text-center justify-content-center service-div5 fs-1 my-4 px-3 py-3">BUILDING DESIGN</div>
         </a>
         <a href="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">authority apporal</div>
+            <div class="service-div d-flex align-items-center text-center justify-content-center service-div6 fs-1 my-4 px-3 py-3">AUTHORITY APPROVAL</div>
         </a>
         <a href="">
-            <div class="service-div d-flex align-items-center justify-content-center m-1">interior design</div>
+            <div class="service-div d-flex align-items-center text-center justify-content-center service-div7 fs-1 my-4 px-3 py-3">INTERIOR DESIGN</div>
         </a>
     </div>
 </div>
-<footer class="">
-  <div class="footer-row icons">
-    <a href="https://www.facebook.com"><i class="fa bi bi-facebook ic"></i></a>
-    <a href="https://www.instagram.com"><i class="fa bi bi-instagram ic"></i></a> 
-    <a href="https://www.linkedin.com"><i class="fa bi bi-linkedin ic"></i></a>
-    <a href="https://www.twitter.com"><i class="fa bi bi-twitter ic"></i></a> 
-  </div>    
-  <div class="footer-row justify-content-center footer-middle">
-    <p class="g-e-2">7010389954</p>
-    <p>|</p>
-    <a href="mailto:contact@southholdconstruction.com"><p>CONTACT@SOUTH HOLD CONSTRUCTION.COM</p></a>
-    <p>|</p>
-    <p>No.168 ERUKENCHERRY HIGH ROAD, CHENNAI - 600 039</p>
-  </div>
-  <div class="footer-row justify-content-around">
-    <a href="#">HOME</a>
-    <a href="#">ABOUT</a>
-    <a href="#">SERVICES</a>
-    <a href="#">PROJECTS</a>
-    <a href="#">CONTACT US</a>
-  </div>
-  <div class="footer-row c justify-content-around pt-3">
-    <p>© 2023 SOUTH HOLD CONSTRUCTION. All Rights Reserved.</p>
-  </div>
- </footer>
 
+</main>
+<!--footer starts here-->
+
+<footer class="py-3 mt-3 bg-black">
+  <div class="row icons">
+    <a class="col" href="https://www.facebook.com"><i class="fa bi bi-facebook"></i></a>
+    <a class="col" href="https://www.instagram.com"><i class="fa bi bi-instagram"></i></a> 
+    <a  class="col" href="https://www.linkedin.com"><i class="fa bi bi-linkedin"></i></a>
+    <a class="col" href="https://www.twitter.com"><i class="fa bi bi-twitter"></i></a> 
+  </div>
+   
+  <ul class="nav justify-content-center pb-2 mb-1" style="font-size:0.8em; letter-spacing:0.1em;">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">7010389954</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">|</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">CONTACT@SOUTHHOLD.CO.IN</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">|</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">168 ERUKENCHERRY HIGH RD. CHENNAI - 600 069 </a></li>
+  </ul>
+
+ 
+  <ul class="nav justify-content-center  pb-2 mb-1" style="font-size:0.8em; letter-spacing:0.1em;">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">HOME</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">ABOUT</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">SERVICES</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">PROJECT</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">CONTACT US</a></li>
+  </ul>
+  <p class="text-center text-white fw-lighter p-1 mb-1 footer3" style="font-size:0.6em; letter-spacing:0.1em;">© 2023 SOUTH HOLD CONSTRUCTION. All Rights Reserved.</p>
+</footer>
+</main>
+<!--footer ends here-->
 </body>
 </html>
