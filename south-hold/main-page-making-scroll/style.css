@@ -149,37 +149,7 @@ nav {
   
   /* main page start here */
 
-<<<<<<< HEAD
-  .masthead {
-   font-size:45px;
-   color:white;
-   margin-top:350px;
-   opacity:1;
-   text-align: center;
-   height:100vh;
-  }
-
-  .ul-li {
-    display: none;
-
-  }
-  .ul-li:hover {
-
-    display: block;
-  }
-  .btn-btn {
-    color: white;
-    border: 2px solid white;
-  }
-  .btn-btn:hover {
-    font-weight: 600;
-    border: 2px solid white;
-    color: black;
-
-
-=======
  
->>>>>>> bbfe8585ffe07eea6c61f7259170767cd7db7b07
   .known-more {
     margin-top:0px;
     color:white;
