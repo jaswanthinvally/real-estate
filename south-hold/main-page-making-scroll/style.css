@@ -211,6 +211,9 @@ nav {
   }
 
 
-
-
-
+  .offcanvas-body .nav-link { 
+    font-size:0.8em;
+  }
+  .dropdown-item {
+    font-size:0.8em;
+  }
