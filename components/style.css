@@ -9,7 +9,7 @@ section {
 
 #home {
   background-image: url('../assets/main\ page\ image\ building.jpg');
-  opacity:0.7;
+  opacity:0.9;
   padding-top:25px;
  
   background-attachment: fixed;
@@ -90,6 +90,10 @@ nav {
   .known-more {
     font-size:1em;
   }
+}
+
+.offcanvas-body .nav-link:hover { 
+  transition-timing-function: ease-in-out 0.15s;;
 }
 
 /* nav bar ends here */
@@ -216,4 +220,5 @@ nav {
 }
 .dropdown-item {
   font-size:0.8em;
+  margin-left:20px;
 }
