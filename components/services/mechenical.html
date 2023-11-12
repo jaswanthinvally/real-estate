@@ -1,11 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>machenical</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!--font added-->
+
+  <link rel="stylesheet" href="https://use.typekit.net/lai3hcf.css">
+  <title>SOUTH HOLD CONSTRUCTION</title>
+
+  <!--Template main css-->
+  <link rel="stylesheet" href="./style.css">
+<style>
+  main {
+    background-color: white;
+  }
+
+  .dropdown-item:hover{
+    color:black;
+    background-color:transparent;
+  }
+  .dropdown-item {
+    color:black;
+  }
+  .navbar {
+    margin-top:25px;
+  }
+  @media (320px <= width <= 991px ) {
+    .offcanvas-body a {
+      color:white;
+    }
+    .dropdown-item {
+    color:white;
+    }
+  }
+  .about li{
+    color:#7F7F7F;
+
+  }
+  .about {
+    height:70vh;
+  }
+        .img-civil {
+        height: 60vh;
+        }
+    </style>
+    </head>
+
+    <body>
+      <main class="pt-5 pb-2">
+        <!--nav bar-->
+          <nav class="navbar navbar-expand-lg text-black navbar-white bg-white">
+            <div class="container">
+              <!--logo-->
+              <a class="navbar-brand" href="#">Offcanvas navbar</a>
+              <!--toggle button-->
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--nav bar sidebar-->
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!--side bar header-->
+                <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!--side bar body-->
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link " aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVICES
+                      </a>
+                      <ul class="dropdown-menu bg-transparent ">
+                        <li class="dropdown-item" href="#">CIVIL WORKS</li>
+                        <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+                        <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+                        <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+                        <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+                        <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+                        <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PROJECTS
+                      </a>
+                      <ul class="dropdown-menu bg-transparent ">
+                        <li class="dropdown-item" href="#">CIVIL WORKS</li>
+                        <li class="dropdown-item" href="#">ELECTRICAL WORKS</li>
+                        <li class="dropdown-item" href="#">PLUMBING WORKS</li>
+                        <li class="dropdown-item" href="#">MECHANICAL WORKS</li>
+                        <li class="dropdown-item" href="#">BUILDING DESIGN</li>
+                        <li class="dropdown-item" href="#">AUTHORITY APPROVAL</li>
+                        <li class="dropdown-item" href="#">INTERIOR DESIGN</li>
+                      </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--nav bar ends here-->
+
+
+      <h1 class="d-flex justify-content-center service-name fs-1 my-5 py-5">ABOUT SOUTH HOLD CONTRACTING</h1>
+
+    <div class="container about my-5 py-5">
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="../assets/civil.jpg" alt="Construction Image" class="img-fluid img-civil">
+        </div>
+        <div class="col-md-6">
+            <h1>About Our Construction Company</h1>
+            <p>
+              <ul>
+                <li>Welcome to South Hold Contracting Pvt Ltd, a distinguished construction entity fortified with a team of licensed Engineers and Architects. Our portfolio spans across a broad spectrum of projects, encompassing Commercial, Residential, Renovation, Fitout, Electromechanical, Building designs & Authority approvals. We are committed to infusing aesthetic appeal into every project, irrespective of its magnitude or intricacy, while maintaining a steadfast focus on practicality.</li>
+                <li>Our team of experts is dedicated to providing high-quality services that cater to the unique needs of our clients. We believe in working closely with our clients to understand their vision and requirements, and then delivering solutions that exceed their expectations.</li>
+                <li>At South Hold Contracting Pvt Ltd, we pride ourselves on our ability to deliver projects on time and within budget. We use the latest technology and equipment to ensure that our work is of the highest quality. Our team is committed to providing exceptional customer service and support throughout the entire project lifecycle.</li>
+                <li>Thank you for considering South Hold Contracting Pvt Ltd for your construction needs. We look forward to working with you and bringing your vision to life!</li>
+              </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container about my-5 py-5">
+  <div class="row col-md">
+    <div class="col-md-6">
+      <h1>Our Vision and Commitment</h1>
+      <p>
+        Our vision is to be a leading EPC contractor in Civil and MEP engineering solutions in the Residential and Commercial sectors. We aim to be our customers’ first choice by achieving excellence in quality and exceeding their expectations. We are committed to optimizing our resources, delivering projects and services on time, and doing it right the first time, every time. This commitment extends to ensuring the personal and professional growth of our team members, providing a safe and secure work environment, and adhering to all applicable occupational health and safety regulations. We believe in the power of teamwork and see our suppliers and clients as partners in our journey towards success.
+      </p>
+  </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <img src="../assets/civil.jpg" alt="Construction Image" class="img-fluid img-civil">
+      </div>
+  </div>
+</div>
+
+<div class="containermy-5 about py-5">
+  <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <img src="../assets/civil.jpg" alt="Construction Image" class="img-fluid img-civil">
+      </div>
+      <div class="col-md-6">
+          <h1>how we differ from others</h1>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id urna ac nisi euismod auctor. Integer ullamcorper, orci sit amet euismod interdum, libero ex bibendum tortor, at lacinia nisi nisl nec risus. Vestibulum convallis nunc eget massa hendrerit, in tristique metus tincidunt. 
+          </p>
+          <p>
+              Nullam id urna ac nisi euismod auctor. Integer ullamcorper, orci sit amet euismod interdum, libero ex bibendum tortor, at lacinia nisi nisl nec risus. Vestibulum convallis nunc eget massa hendrerit, in tristique metus tincidunt.
+          </p>
+      </div>
+  </div>
+</div>
+</main>
+
+<!--footer starts here-->
+
+<footer class="py-3 mt-3 bg-black">
+  <div class="row icons">
+    <a class="col" href="https://www.facebook.com"><i class="fa bi bi-facebook"></i></a>
+    <a class="col" href="https://www.instagram.com"><i class="fa bi bi-instagram"></i></a> 
+    <a  class="col" href="https://www.linkedin.com"><i class="fa bi bi-linkedin"></i></a>
+    <a class="col" href="https://www.twitter.com"><i class="fa bi bi-twitter"></i></a> 
+  </div>
+   
+  <ul class="nav justify-content-center pb-2 mb-1" style="font-size:0.8em; letter-spacing:0.1em;">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">7010389954</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">|</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">CONTACT@SOUTHHOLD.CO.IN</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">|</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer2 fw-light">168 ERUKENCHERRY HIGH RD. CHENNAI - 600 069 </a></li>
+  </ul>
+
+ 
+  <ul class="nav justify-content-center  pb-2 mb-1" style="font-size:0.8em; letter-spacing:0.1em;">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">HOME</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">ABOUT</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">SERVICES</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">PROJECT</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-white footer1 fw-light">CONTACT US</a></li>
+  </ul>
+  <p class="text-center text-white fw-lighter p-1 mb-1 footer3" style="font-size:0.6em; letter-spacing:0.1em;">© 2023 SOUTH HOLD CONSTRUCTION. All Rights Reserved.</p>
+</footer>
+</main>
+<!--footer ends here-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
