@@ -45,6 +45,7 @@
     background-color:black;
     color:white;
   }
+  
   @media (320px <= width <= 991px ) {
     .offcanvas-body a {
       color:white;
@@ -52,18 +53,22 @@
     .dropdown-item {
     color:white;
     }
-    /*.projects-container .row .col {
-  }*/
   }
 
   .projects-container .row .col {
     background-color:black;
-    height: 40vh;
+    height:30vh;
+    width:40vh;
   }
 
   .projects-container .row {
     gap:1em;
   }
+
+  .hovering:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
     </style>
     </head>
 
@@ -135,40 +140,37 @@
 
      
 
-        <div class="container holder mt-5 ">
+    <div class="container holder my-5 ">
 
           <h1 class="d-flex justify-content-center service-name text-center fs-1 my-2 py-5">PROJECTS</h1>
     
           <div class="container   my-5 align-content-center justify-content-center projects-container">
             <div class="row gx-1 gy-1 align-content-center justify-content-center my-3">
-            <div class="row d-flex  align-content-center justify-content-center">
-            <div class="col col-lg-3 justify-content-center align-content-center text-center col-12 ">ITC</div>
-            <div class="col col-lg-3   align-content-center justify-content-center col-12 col-md-3">ITC</div>
-            <div class="col col-lg-3   align-content-center justify-content-center col-12 col-md-3">ITC</div>
-            </div>
-            <div class="row   align-content-center justify-content-center">
-              <div class="col col-lg-3  align-content-center justify-content-center col-12">ITC</div>
-              <div class="col col-lg-3  align-content-center justify-content-center  col-12">ITC</div>
-              <div class="col col-lg-3   align-content-center justify-content-center col-12">ITC</div>
-              </div>
-              <div class="row   align-content-center justify-content-center">
-                <div class="col col-lg-3   align-content-center justify-content-center col-12">ITC</div>
-                <div class="col col-lg-3   align-content-center justify-content-center col-12">ITC</div>
-                <div class="col col-lg-3     align-content-center justify-content-center col-12">ITC</div>
+            <div class="row d-flex  align-content-center justify-content-center text-center">
+            <div class="col col-lg-3   justify-content-center align-content-center col-12 align-items-center d-flex hovering">ITC</div>
+            <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering ">ITC</div>
+            <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering ">ITC</div>
+              <div class="col col-lg-3   align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
+              <div class="col col-lg-3   align-content-center justify-content-center  col-12 align-items-center  d-flex hovering">ITC</div>
+              <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
+                <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
+                <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
+                <div class="col col-lg-3      align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
                 </div>
                 </div>
           
           </div>
     
-          <div class="container text-center">
-            <p class="col lets-header fs-1">Let's take a moment to view Our Projects</p>
-            <button class="col lets-button">Browse Our Projects</button>
-          </div>
+         
           
-      </div>
+    </div>
 
+    <div class="container text-center my-5">
+      <p class="col lets-header fs-1">Let's take a moment to view Our Projects</p>
+      <button class="col lets-button">Browse Our Projects</button>
+    </div>
 
-        </main>
+  </main>
     
 
 <!--footer starts here-->
