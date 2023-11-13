@@ -11,6 +11,25 @@
   <link rel="stylesheet" href="https://use.typekit.net/lai3hcf.css">
   <title>SOUTH HOLD CONSTRUCTION</title>
 
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Average&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/lai3hcf.css">
+
+
   <!--Template main css-->
   <link rel="stylesheet" href="./style.css">
 <style>
@@ -30,12 +49,13 @@
   }
   .container .lets-header {
     color:black;
+    font-family:average, sans-serif, serif;
   }
   .container .lets-button {
     background-color:white;
     border:1px solid black;
     color:black;
-    font-size:1.5em;
+    font-size:1.3em;
     font-weight:light;
     padding:10px 20px 10px 20px;
     margin:20px 0px 20px 0px;
@@ -65,8 +85,46 @@
     gap:1em;
   }
 
+  
+
+  .hovering a{
+    display:none;
+    
+  }
+  .hovering {
+    transition:display 0.3s ease-in-out ;
+  }
   .hovering:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .hovering:hover a{
+    display:block;
+    letter-spacing:0.1em;
+    font-size:2em;
+    font-family:Antonio, sans-serif, serif;
+    font-weight:700px;
+    
+
+  }
+
+  .img1 {
+    background-image:url('../assets/projects-image/ct1.jpg');
+    background-size:cover;
+  }
+  .img2 {
+    background-image:url('../assets/projects-image/itc1.png');
+    background-size:cover;
+  }
+  .img3 {
+    background-image:url('../assets/projects-image/picture1.jpg');
+    background-size:cover;
+  }
+  .service-name {
+    font-family:average, sans-serif, serif;
+    letter-spacing:0.1em;
+    font-weight:600;
+
   }
 
     </style>
@@ -147,15 +205,15 @@
           <div class="container   my-5 align-content-center justify-content-center projects-container">
             <div class="row gx-1 gy-1 align-content-center justify-content-center my-3">
             <div class="row d-flex  align-content-center justify-content-center text-center">
-            <div class="col col-lg-3   justify-content-center align-content-center col-12 align-items-center d-flex hovering">ITC</div>
-            <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering ">ITC</div>
-            <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering ">ITC</div>
-              <div class="col col-lg-3   align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
-              <div class="col col-lg-3   align-content-center justify-content-center  col-12 align-items-center  d-flex hovering">ITC</div>
-              <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
-                <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
-                <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
-                <div class="col col-lg-3      align-content-center justify-content-center col-12 align-items-center  d-flex hovering">ITC</div>
+            <div class="col col-lg-3   justify-content-center align-content-center col-12 align-items-center d-flex img1 hovering"><a>COMMERCIAL FITOUT</a></div>
+            <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex img2 hovering "><a>ITC OFFICE</a></div>
+            <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex img3 hovering "><a>OFFICE REMODELING</a></div>
+              <div class="col col-lg-3   align-content-center justify-content-center col-12 align-items-center  d-flex img4 hovering"><a>ITC</a></div>
+              <div class="col col-lg-3   align-content-center justify-content-center  col-12 align-items-center  d-flex img5 hovering"><a>ITC</a></div>
+              <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex img6 hovering"><a>ITC</a></div>
+                <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex img7 hovering"><a>ITC</a></div>
+                <div class="col col-lg-3    align-content-center justify-content-center col-12 align-items-center  d-flex img8 hovering"><a>ITC</a></div>
+                <div class="col col-lg-3      align-content-center justify-content-center col-12 align-items-center  d-flex img9 hovering"><a>ITC</a></div>
                 </div>
                 </div>
           
@@ -165,17 +223,16 @@
           
     </div>
 
-    <div class="container text-center my-5">
+    <div class="container text-center py-5 my-5">
       <p class="col lets-header fs-1">Let's take a moment to view Our Projects</p>
       <button class="col lets-button">Browse Our Projects</button>
     </div>
-
   </main>
     
 
 <!--footer starts here-->
 
-<footer class="py-3 mt-3 bg-black">
+<footer class="py-3 mt-3 bg-black px-0">
   <div class="row icons">
     <a class="col" href="https://www.facebook.com"><i class="fa bi bi-facebook"></i></a>
     <a class="col" href="https://www.instagram.com"><i class="fa bi bi-instagram"></i></a> 

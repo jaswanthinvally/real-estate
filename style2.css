@@ -77,6 +77,16 @@ nav {
   
 }
 
+.hero {
+  font-size:1.5em;
+  font-weight:bold;
+  font-family:average, sans-serif,serif;
+
+}
+.hero span {
+  font-weight:bold;
+  font-family:average, sans-serif,serif;
+}
 
 @media screen and (min-width:991px) {
   .dropdown .dropdown-menu.show {
@@ -257,10 +267,6 @@ nav {
   }
 
 
-
-@media (375px <= width <=700px) {
-  
-}
 
 
 .projects-container .row .col {
