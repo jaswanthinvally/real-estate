@@ -1,4 +1,6 @@
-
+* {
+  font-family:'Aboreto','Antonio','Average','Nunito','poppins',system-ui, '-apple-system', 'BlinkMacSystemFont', Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 section {
   background-attachment: scroll;
   background-position: center center;
@@ -8,21 +10,26 @@ section {
 
 
 #home {
-  background-image: url('../assets/main\ page\ image\ building.jpg');
-  opacity:0.9;
+  background-image: url('./super-structure\ -concreting\ copy.jpg');
+  opacity:0.7;
   padding-top:25px;
- 
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  height:122vh;
+  height:105vh;
+  transition:background-image 0.9s ease-in-out;
 
 }
 #about {
   background-image: url('../assets/architectural.jpg');
 }
 
+#hero3 {
+  background-color:white;
+  color:black;
+  height:auto;
 
+}
 
 body {
   background-color:black;
@@ -93,8 +100,10 @@ nav {
 }
 
 .offcanvas-body .nav-link:hover { 
-  transition-timing-function: ease-in-out 0.15s;;
+  transition-timing-function: ease-in-out 0.15s;
 }
+
+
 
 /* nav bar ends here */
 
@@ -186,7 +195,12 @@ nav {
   .hero2 {
     height:500px;
   }
-
+  .hero2 h1 {
+    font-family:average, sans-serif,serif;
+  }
+  .hero2 p {
+    font-family:poppins, sans-serif,serif;
+  }
   .aboutus {
     background-color:white;
     color:black;
@@ -216,9 +230,64 @@ nav {
 /* service page starts from here */
   
 .offcanvas-body .nav-link { 
-  font-size:0.9em;
+  font-size:1em;
+  opacity:0.9;
 }
 .dropdown-item {
   font-size:0.8em;
-  margin-left:20px;
+  opacity:0.9;
+}
+
+
+
+
+
+
+@media (375px <= width <=700px) {
+
+}
+
+
+.projects-container .row .col {
+background-color:black;
+height:30vh;
+width:40vh;
+color:white;
+}
+
+.projects-container .row {
+gap:1em;
+}
+
+.hovering:hover {
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.main {
+background-color:white;
+}
+
+.container .lets-header {
+color:black;
+}
+.container .lets-button {
+background-color:white;
+border:1px solid black;
+color:black;
+font-size:1.5em;
+font-weight:light;
+padding:10px 20px 10px 20px;
+margin:20px 0px 20px 0px;
+transition:ease-in-out 0.3s;
+height:auto;
+width:auto;
+}
+.container .lets-button:hover {
+background-color:black;
+color:white;
+}
+
+@media (300px <= width <= 991px) {
+#hero3 {
+  height:auto;
+}
 }
