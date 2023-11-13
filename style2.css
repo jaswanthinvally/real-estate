@@ -95,6 +95,7 @@ nav {
   }
   .dropdown:hover .dropdown-menu {
     display:block !important;
+    margin-left:20px;
     transition:ease-in-out 0.3s;
   }
   .dropdown:focus .dropdown-menu {
